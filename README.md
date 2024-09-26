@@ -6,6 +6,7 @@ Homebrew makes it somewhat difficult to install older version of packages. This 
 
 ```
 brew tap bagonyi/homebrew-formulae git@github.com:bagonyi/homebrew-formulae.git
+brew tap homebrew/core --force
 brew extract --version=1.22 leveldb bagonyi/formulae
 brew install leveldb@1.22
 ```
